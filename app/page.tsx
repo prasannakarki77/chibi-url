@@ -32,9 +32,9 @@ export default function Home() {
     <div className="text-center ">
       {message}
 
-      <div className="flex mx-auto max-w-sm items-center space-x-2 ">
-        <Input type="email" placeholder="Email" />
-        <Button type="submit">Subscribe</Button>
+      <div className="flex mx-auto max-w-sm items-center space-x-2 translate-y-[200px] ">
+        <Input type="text" placeholder="Enter url" />
+        <Button type="submit">Generate URL</Button>
       </div>
     </div>
   );
